@@ -16,7 +16,7 @@ To call the application on python shell:
 
 * python3.<version>
 * from SentimentAnalysis.sentiment_analysis import sentiment_analyzer
-* sentiment_analyser("I'm enjoying to play with ibm watson")
+* sentiment_analyzer("I'm enjoying to play with ibm watson")
 
 
 ### License
