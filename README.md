@@ -19,6 +19,8 @@ To call the application on python shell:
 * sentiment_analyser("I'm enjoying to play with ibm watson")
 
 
+### License
+
 Copyright (c) 2024, Guilherme Oliveira. All rights reserved.
 
 Licensed under the Apache License. See [LICENSE](LICENSE)
