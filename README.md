@@ -1,5 +1,7 @@
 # Flask Sentiment Analysis Project
 
+[![License](https://img.shields.io/badge/Apache_License-yellow.svg)](https://opensource.org/license/apache-2-0)
+
 This is a project of the course "Developing AI Applications with Python and Flask" by IBM as part of IBM DevOps course.
 
 ### Description
@@ -15,3 +17,8 @@ To call the application on python shell:
 * python3.<version>
 * from SentimentAnalysis.sentiment_analysis import sentiment_analyzer
 * sentiment_analyser("I'm enjoying to play with ibm watson")
+
+
+Copyright (c) 2024, Guilherme Oliveira. All rights reserved.
+
+Licensed under the Apache License. See [LICENSE](LICENSE)
