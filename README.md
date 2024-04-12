@@ -1,6 +1,6 @@
 # Flask Sentiment Analysis Project
 
-[![License](https://img.shields.io/badge/Apache_License-yellow.svg)](https://opensource.org/license/apache-2-0)
+[![License](https://img.shields.io/badge/License-Apache-yellow.svg)](https://opensource.org/license/apache-2-0)
 
 This is a project of the course "Developing AI Applications with Python and Flask" by IBM as part of IBM DevOps course.
 
