@@ -5,7 +5,7 @@ from any text, and return a score.
 
 import json
 import requests
-from ibm_watson import NaturalLanguageUnderstandingV1,SpeechToTextV1, TextToSpeechV1
+from ibm_watson import NaturalLanguageUnderstandingV1
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 # from ibm_watson.natural_language_understanding_v1 import Features, SentimentOptions
 
@@ -15,9 +15,6 @@ natural_language_understanding = NaturalLanguageUnderstandingV1(
     version='2022-04-07',
     authenticator=authenticator)
 # service.set_service_url('https://gateway.watsonplatform.net/natural-language-understanding/api')
-text_to_speech = TextToSpeechV1(authenticator=authenticator)
-spech_to_test = SpeechToTextV1(authenticator=authenticator)
-
 
 def sentiment_analyzer(text_to_analyse): # POST request
     """
