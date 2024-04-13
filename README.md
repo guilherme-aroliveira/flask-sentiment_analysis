@@ -14,9 +14,11 @@ In order to use BERT and IBM Watson API it's necessary to import these libraries
 
 To call the application on python shell:
 
-* python3.<version>
-* from SentimentAnalysis.sentiment_analysis import sentiment_analyzer
-* sentiment_analyzer("I'm enjoying to play with ibm watson")
+```python
+$ python3
+>>> from SentimentAnalysis.sentiment_analysis import sentiment_analyzer
+>>> sentiment_analyzer("I'm enjoying to play with ibm watson")
+```
 
 
 ### License
